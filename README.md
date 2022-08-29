@@ -5,13 +5,17 @@ You have to build conveyor/production line and after you will be able to create 
 ## Run in the WEB
 [Project is available on github pages CLICK ME](https://mihkelgering.github.io/threejs-conveyor-belt/)
 ## Usage
+* ScrollDown - create conveyor line
 
-ScrollDown - create conveyor line
-C - create box
-A - move object to the left
-D - move object to the right
-M - move object to the end
-R - refresh page / restart
+* C - create box
+
+* A - move object to the left
+
+* D - move object to the right
+
+* M - move object to the end
+
+* R - refresh page / restart
 
 ## Run locally
 Install all dependencies and after run local server
