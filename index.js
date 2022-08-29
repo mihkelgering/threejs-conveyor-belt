@@ -7,8 +7,8 @@ renderer.domElement.id = 'canvas';
 document.body.appendChild( renderer.domElement );
 
 //textures
-const texture = new THREE.TextureLoader().load( 'texture.jpg' );
-const boxtexture = new THREE.TextureLoader().load( 'box.jpg' );
+const texture = new THREE.TextureLoader().load( 'assets/texture.jpg' );
+const boxtexture = new THREE.TextureLoader().load( 'assets/box.jpg' );
 
 const geometry = new THREE.BoxGeometry( 1, 0.5, 3 );
 const material = new THREE.MeshBasicMaterial( {map: texture} );
@@ -108,6 +108,7 @@ function movebox() {
         }
         else{
             scene.remove(box);
+            box.name = "box";
             clearInterval(interval);
         }
     }
