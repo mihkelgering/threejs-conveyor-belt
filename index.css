@@ -1,0 +1,22 @@
+#info {
+    position: absolute;  
+    top: 10%;
+    margin-left: auto; 
+    margin-right: auto; 
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#warning {
+    position: absolute;  
+    bottom: 10%;
+    margin-left: auto; 
+    margin-right: auto; 
+    color: rgb(254, 217, 217);
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
+
+body { margin: 0; }
